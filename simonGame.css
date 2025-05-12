@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(12, 20, 33);
+    text-align: center;
+}
+
+a{
+    position: relative;
+    top: 90px;
+    transition: 1s;
+    color: rgb(13, 143, 143);
+}
+a:hover{
+    
+    text-decoration: none;
+    color: cyan;
+}
+h1{
+    color: aqua;
+}
+
+h2{
+    color: rgb(29, 255, 119);
+}
+
+.btn{
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin: 0.2rem;
+}
+
+.btn_container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.red{
+    background-color: rgb(175, 38, 38);
+}
+.blue{
+    background-color: rgb(37, 37, 173);
+}
+
+.green{
+    background-color: rgb(10, 128, 10);
+}
+
+.cyan{
+    background-color: rgb(17, 152, 152);
+}
+
+.flash{
+    background-color: black;
+}
+.useflash{
+    background-color: rgb(128, 0, 109);
+}
